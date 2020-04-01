@@ -1,0 +1,8 @@
+export const TOGGLE_MENU = 'TOGGLE_MENU'
+export const REDIRECT_HOME = 'REDIRECT_HOME'
+export const START_LOADING = 'START_LOADING'
+export const STOP_LOADING = 'STOP_LOADING'
+export const ARTICLE_VIEW = 'ARTICLE_VIEW'
+// export const HOME_VIEW = 'HOME_VIEW'
+export const SHOW_HEADER = 'SHOW_HEADER'
+export const HIDE_HEADER = 'HIDE_HEADER'

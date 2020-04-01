@@ -1,0 +1,47 @@
+.footerClass {
+  background: #036;
+  font-family: "Noto Sans";
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 5%;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  color: white;
+  height: 100%;
+  font-size: 80%;
+}
+
+.menuItem {
+  padding-right: 3rem;
+}
+
+.icons {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+
+.iconBox {
+  margin-left: 2rem;
+  fill: white;
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+}
+
+@media (max-width: 767px) {
+  .menu {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .footerClass {
+    height: 150px;
+    padding: 1rem 5%;
+  }
+}

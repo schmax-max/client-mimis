@@ -1,0 +1,43 @@
+runtime: python27
+service: mimis-mvp
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /
+  static_files: build/index.html
+  upload: build/index.html
+  secure: always
+- url: /static
+  static_dir: build/static
+- url: /manifest.json
+  static_files: build/manifest.json
+  upload: build/manifest.json
+- url: /asset-manifest.json
+  static_files: build/asset-manifest.json
+  upload: build/asset-manifest.json
+- url: /service-worker.json
+  static_files: build/service-worker.json
+  upload: build/service-worker.json
+# - url: /pageIcon.png
+#   static_files: build/pageIcon.png
+#   upload: build/pageIcon.png
+- url: /mimis.ico
+  static_files: build/mimis.ico
+  upload: build/mimis.ico
+- url: /.*
+  static_files: build/index.html
+  upload: build/index.html
+  secure: always
+
+skip_files:
+- src/
+- node_modules/
+- graveyard/
+- ^\.git/.*
+- ^(.*/)?#.*#$
+- ^(.*/)?.*~$
+- ^(.*/)?.*\.py[co]$
+- ^(.*/)?.*/RCS/.*$
+- ^(.*/)?\..*$
+- ^(.*/)?.*\.bak$

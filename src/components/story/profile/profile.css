@@ -1,0 +1,59 @@
+.profileImageRow {
+  display: flex;
+  align-self: center;
+  flex-direction: row;
+  padding: 1rem;
+  align-items: centre;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.profileImage {
+  width: 100px;
+  height: 100px;
+}
+
+.profileMainWrapper {
+  padding: 1rem 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  min-width: 100%;
+}
+
+.profileWrapper {
+  padding: 1rem 0;
+  position: relative;
+  color: #003366;
+  width: 80%;
+}
+
+.profileNameText {
+  font-size: 160%;
+  font-family: Noto Sans Bold;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.profileRoleText {
+  font-size: 120%;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.profileBackgroundText {
+  font-size: 120%;
+  line-height: 120%;
+  margin-bottom: 1rem;
+}
+
+.profileBackgroundSplit {
+  margin-bottom: 0.8rem;
+}
+
+@media screen and (max-width: 767px) {
+  .profileMainWrapper {
+    flex-direction: column;
+  }
+}

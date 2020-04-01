@@ -1,0 +1,63 @@
+.barSecondary {
+  overflow-x: auto;
+  overflow: hidden;
+  width: 100%;
+  color: #036;
+  border-bottom: solid 2px #036;
+}
+
+/* &:before {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 2%;
+    height: 70%;
+    background: linear-gradient(to right, #003366 40%, rgba(255, 255, 255, 0.0000001) 100%);
+    z-index: 3;
+}
+&:after {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    width: 2%;
+    height: 70%;
+    z-index: 3;
+    background: linear-gradient(to right, #003366 40%, rgba(255, 255, 255, 0.0000001) 100%);
+}
+@media (max-width: 1024px) {
+    display: none;
+} */
+
+.barSecondaryUl {
+  /* background-color: #036; */
+
+  min-width: 100%;
+  margin: 10px 0px;
+  padding: 0;
+  display: inline-flex;
+  list-style: none;
+  overflow-x: auto;
+  align-items: center;
+  color: #036;
+  a:hover {
+    text-decoration: none !important;
+    cursor: pointer;
+  }
+  ::-webkit-scrollbar {
+    background: #036;
+    height: 15%;
+  }
+  ::-webkit-scrollbar-track {
+    background: white;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #036;
+    box-shadow: 5px 0px 5 inset #036, -5px 0px 5 inset #036;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .barSecondary {
+    display: none;
+  }
+}

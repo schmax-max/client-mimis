@@ -1,0 +1,32 @@
+.barPrimary {
+  min-height: 40px;
+  margin: auto;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-size: 80%;
+  justify-content: space-around;
+  width: 100%;
+  background: #036;
+}
+
+@media screen and (max-width: 767px) {
+  .barPrimary {
+    display: none;
+  }
+}
+
+/* 
+a:link, a:visited, a:active {
+    color: white !important;
+    padding: 10% 20%;
+    align-self: center;
+    height: 100%;
+}
+a:hover {
+    text-decoration: none !important;
+    cursor: pointer;
+}
+@media (max-width: 1024px) {
+    font-size: 90%;
+} */

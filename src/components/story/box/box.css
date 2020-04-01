@@ -1,0 +1,159 @@
+.message {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  font-weight: bold;
+  width: 100%;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  @media (max-width: 767px) {
+      width: 100%;
+      justify-content: flex-start;
+  }
+}
+
+.mainMessage{
+  font-size: 200%;
+  font-style: regular;
+  @media (max-width: 767px) {
+    font-size: '160%';
+  }
+}
+
+.subMessage{
+  font-size: 130%;
+  font-style: italic;
+  @media (max-width: 767px) {
+    font-size: 120%;
+  }
+}
+
+
+.checkIconContainer{
+  width: 25px;
+  height: 25px;
+  padding-right: 5px;
+}
+
+/* @media (max-width: 767px) {
+  height: 25px;
+  width: 25px;
+} */
+/* bb4d64 */
+/* ee627f */
+
+.box{
+  background: #be4e65;
+  align-items: center;
+  z-index: 100;
+  font-family: "Noto Sans";
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem 3%;
+  color: #fbdfe5;
+  @media (max-width: 1024px) {
+    flex-direction: row;
+    height: 90%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  @media (max-width: 767px) {
+    flex-direction: column;
+    height: 90%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+      /* width: 100%;
+      height: 100%; */
+  }
+}
+
+.topWrapper{
+  align-self: center;
+  height: 70%;
+  width: 100%;
+  padding-bottom: 1rem;
+  @media (max-width: 1024px) {
+      width: 60%;
+      height: 100%;
+  }
+  @media (max-width: 767px) {
+      width: 90%;
+      height: 80%;
+  }
+}
+
+.bottomWrapper{
+  display: flex;
+  max-width: 500px;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between; 
+  min-height: 40px;
+  align-items: center;
+}
+
+
+
+.wrapperCheckMarksArray{
+  width: 70%;
+  min-height: 60px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.wrapperCheckMark{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;  
+}
+
+
+.actionWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 40%;
+  height: 40px;
+  font-size: 150%;
+}
+
+.actionButton {
+  background: white;
+  border-radius: 20px;
+  font-size: 70%;
+  font-weight: bold;
+  
+  color: #be4e65;
+  width: 100%;
+  height: 100%;
+}
+/* border-color: #fbdfe5;/ */
+/* color: #003366; */
+
+/* @media (max-width: 1024px) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+}
+@media (max-width: 767px) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+} */
+
+/* @media (max-width: 1024px) {
+  width: 30%;
+  height: 100%;
+}
+@media (max-width: 767px) {
+  width: 60%;
+  height: 20%;
+} */
